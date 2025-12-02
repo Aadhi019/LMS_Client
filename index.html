@@ -1,52 +1,56 @@
 <!DOCTYPE html>
-<!-- DOM -->
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <!-- Google Bubble Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
-
+    <title>F1</title>
     <link rel="stylesheet" href="index.css">
-
-    <style>
-        /* internal css */
-        h2 {
-            text-align: center;
-        }
-
-        h3 {
-            text-align: center;
-        }
-
-        /* Bubble font for the list */
-        #s1 {
-            display: block;
-            font-family: 'Bubblegum Sans', cursive;
-            color: purple;
-            font-size: 40px;
-        }
-    </style>
 </head>
 
-<body style="background-color: pink;">
+<body class="main-body">
+    <header class="main-header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/F1.svg/120px-F1.svg.png?20210221014215"
+            alt="F1" class="logo-image">
+        <nav class="nav"><a href="#home" class="nav-link">Home</a><a href="#about" class="nav-link">About</a><a
+                href="#contact" class="nav-link">Contact</a></nav>
+    </header>
+    <main class="main-section">
+        <div class="video-background">
+            <video autoplay muted    loop>
+                <source src="Wallpaper F1 4K TEST EDIT AMD.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="content-overlay">
+            <h1 class="main-title">Formula Racing Academy</h1>
+            <p class="main-description">Master the art of speed and precision.</p>
+        </div>
+    </main>
+    <section class="content-section">
+        <p class="content-description">
+            The 2025 FIA Formula One World Championship is an ongoing motor racing championship for Formula One cars and
+            the 76th running of the Formula One World Championship. It is recognised by the Fédération Internationale de
+            l'Automobile (FIA), the governing body of international motorsport, as the highest class of competition for
+            open-wheel racing cars. The championship is contested over twenty-four Grands Prix held around the world. It
+            began in March and will end in December.<br><br>    
 
-    <marquee behavior="scroll" direction="left" scrollamount="5" style="font-size: 30px; font-weight: bold;">
-        <h1 style="color: orangered;">HEY SIRI!!!</h1>
-    </marquee>
+            Drivers and teams compete for the titles of World Drivers' Champion and World Constructors' Champion,
+            respectively. Max Verstappen, driving for Red Bull Racing-Honda RBPT, is the reigning Drivers' Champion,[1]
+            while McLaren-F1, who were the reigning Constructors' Champions, secured their tenth title, and second
+            in a row, at the Singapore Grand Prix, the first time McLaren had won consecutive constructors' titles since
+            1991.<br><br>
 
-    <h3 style="color: green;">Types of CSS </h3>
+            The 2025 season is the last year to utilise the power unit configuration introduced in 2014. A revised
+            configuration without the Motor Generator Unit-Heat (MGU-H), but with a higher power output from the Motor
+            Generator Unit-Kinetic (MGU-K), will be introduced for 2026.[2] 2025 also marks the final year of the
+            ground-effect generation of cars introduced in 2022, and the last year of the drag reduction system (DRS)
+            introduced as an overtaking aid in 2011, as cars with active aerodynamics and moveable wings will be
+            introduced in 2026.[3]<br><br>
 
-    <!-- 1 free line added -->
-    <br>
-
-    <span id="s1">1. Inline</span>
-    <span id="s1">2. Internal</span>
-    <span id="s1">3. External</span>
-
+            2025 also marks Renault's final season as an active engine supplier for its team Alpine, with the
+            manufacturer planning to discontinue engine production post-2025.[4]
+        </p>
+    </section>
 </body>
 
 </html>

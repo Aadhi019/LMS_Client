@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #000 url('https://store-images.s-microsoft.com/image/apps.12151.13914487854850327.d5500a50-31db-4c62-bcee-1eac17bd4186.85812485-e874-4810-9383-adbbb4a8364e?h=1280') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+    filter: blur(3px);
+    z-index: -1;
+}
+
+.login {
+    background: #1c1c1c;
+    padding: 40px;
+    border-radius: 8px;
+    width: 340px;
+    text-align: center;
+}
+
+.logo {
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid #333;
+    background: transparent;
+    color: #fff;
+    font-size: 15px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-bottom-color: #fff;
+    outline: none;
+}
+
+input::placeholder {
+    color: #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background: #fff;
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ccc;
+}
+
+p {
+    margin-top: 20px;
+    color: #ccc;
+    font-size: 14px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
