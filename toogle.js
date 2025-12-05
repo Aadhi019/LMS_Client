@@ -12,4 +12,8 @@ const setTheme = (theme) => {
     else {
         body.classList.remove("dark");
     }
+    sessionStorage.setItem("theme", theme)
 }
+
+const currentTheme = sessionStorage.getItem("theme");
+setTheme(currentTheme);
